@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="root" minHeight="133.0" minWidth="551.0" prefHeight="263.0" prefWidth="551.0" scaleShape="false" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="psu.client.ClientController">
+   <children>
+      <Label fx:id="leftTeamScore" contentDisplay="CENTER" layoutX="14.0" layoutY="36.0" text="Score" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="rightTeamScore" contentDisplay="CENTER" layoutX="202.0" layoutY="36.0" text="Score" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="leftTeamName" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" text="Название левой команды" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="rightTeamName" contentDisplay="CENTER" layoutX="198.0" layoutY="14.0" text="Название правой команды" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeToEnd" contentDisplay="CENTER" layoutX="397.0" layoutY="120.0" prefHeight="43.0" prefWidth="149.0" text="Время до конца" textAlignment="CENTER">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ListView fx:id="leftTeamStrikers" layoutX="14.0" layoutY="57.0" prefHeight="200.0" prefWidth="189.0" />
+      <ListView fx:id="rightTeamStrikers" layoutX="203.0" layoutY="57.0" prefHeight="200.0" prefWidth="189.0" />
+   </children>
+</Pane>
